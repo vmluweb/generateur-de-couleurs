@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="vmluweb">
+    <title>Générateur de couleurs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Générateur de couleurs</h1>
+    <div id="boxApp">
+        <h2>Entrez un code couleur CSS pour changer l'arrière-plan</h2>
+        <div id="colorInput">
+            <input type="text" placeholder="#FFFFFF" id="colorText" focus>
+            <div id="boxBtnChange">
+                <button id="btnChange">Changer</button>
+            </div>
+        </div>
+        <h2>Trouvez une couleur d'arrière-plan grâce au sélecteur </h2>
+        <div id="setColor">
+            <input type="color" id="colorPalet" value="#FFFFFF">
+        </div>
+        <h2>Cliquez sur "générer" <br>pour modifier instantanément la couleur d'arrière-plan</h2>
+        <div id="colorRandom">
+            <div>
+                <p id="textColorRandom"></p>
+            </div>
+            <button id="btnRandom">Générer</button>
+        </div>
+    </div>
+</body>
+
+</html>
